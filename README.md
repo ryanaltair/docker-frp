@@ -1,7 +1,7 @@
 # Docker frp
 Docker image for [frp](https://github.com/fatedier/frp/), based on Alpine Linux.
 
-Current frp version: v0.14.1
+Current frp version: v0.15.0
 
 ## How to use
 Run frp server:
