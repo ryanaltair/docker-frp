@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Acris Liu "acrisliu@gmail.com"
 
-ENV FRP_VERSION 0.19.1
+ENV FRP_VERSION 0.20.0
 
 RUN set -ex \
     && apk add --no-cache --virtual .build-deps openssl \
