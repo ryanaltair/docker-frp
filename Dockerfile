@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Acris Liu "acrisliu@gmail.com"
+LABEL maintainer="Acris Liu <acrisliu@gmail.com>"
 
 ENV FRP_VERSION 0.27.0
 
