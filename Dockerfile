@@ -19,6 +19,8 @@ RUN set -ex \
     && cp frpc.ini /etc/frp \
     && cd .. \
     && rm -rf frp_${FRP_VERSION}_${PLATFROM} \
+    && apk update \
+    && apk add openssh-client \
     && apk del .build-deps
 
 VOLUME /etc/frp
