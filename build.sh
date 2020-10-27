@@ -1,0 +1,1 @@
+docker build -t frp:0.34.1 . 
